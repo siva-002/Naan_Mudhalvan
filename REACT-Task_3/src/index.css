@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+
+}
+#root{
+  width: 60vw;
+  height: 90vh;
+  
+}
+.navcontainer{
+  display: flex;
+  justify-content: space-between;
+  background: #64c8504d;
+  height: 60px;
+}
+.logo{
+  font-size: 30px;
+ margin: 10px 20px;
+}
+.logo:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+.navbar{   
+  width: 25vw;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 20px;
+}
+.navbar li{
+  font-size: 30px;
+ 
+}
+.navbar a{
+  text-decoration: none;
+  color: black;
+}
+.navbar li:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.home,.message,.about{
+  display: flex;
+  
+ margin-top: 20px;
+  justify-content: center;
+}
+.home .text{
+  font-size: 40px;
+  filter: drop-shadow(2px 0px  black);
+}
+.msg{
+  height: 50vh;
+  width: 50vw;
+  border: 2px solid;
+  padding: 10px;
+  overflow-y: scroll;
+ 
+}
+.usermsgs{
+  position: relative;
+  margin-top: 10px;
+  height: 100px;
+  background: rgba(100,200,100,0.3)
+}
+.username{
+  font-size: 30px;
+  color: blueviolet;
+}
+.usermsg{
+  font-size: 25px;
+  margin-left: 20px;
+}
+.userdate{
+  top: 30%;
+  right: 5%;
+  position: absolute;
+  font-size: 20px;
+}
+.message{
+ width: 50vw;
+  font-size: 20px;
+ 
+}
+.about{
+  width: 50vw;
+}
+.sendmsg{
+  margin-top: 100px;
+  margin-left: -250px;
+  display: flex;
+  flex-direction: column;
+}
+.sendmsg div{
+  height: 100px;
+}
+.sendmsg div label{
+  font-size: 25px;
+}
+.sendmsg div input{
+  height: 20px;
+  border-radius: 2px;
+
+}
+.sendmsg div input[type="submit"]{
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: green;
+  font-weight: bold;
+  color: white;
+}
+.usermsgs a{
+  text-decoration: none;
+}
+.viewmessage{
+
+  height: 50vh;
+  position: relative;
+  
+}
+.viewmessage h1{
+ margin-top: 20px;
+ 
+  text-transform: uppercase;
+  color: violet;
+}
+.viewmessage h3{
+ margin-top: 100px;
+  text-indent: 100px;
+  text-transform: lowercase;
+}
+.viewmessage h4{
+  bottom: 0;
+  right: 10px;
+  position: absolute;
+}
+.viewmessage .btn{
+  font-size: 20px;
+  top:0px;
+  right: 10px;
+  position: absolute;
+  background: orange;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+.viewmessage .msgcon{
+margin-top: 10px;
+  height: 50vh;
+box-shadow: 10px 5px 25px 2px grey;
+}
+.clr{
+  color: green;
+  font-size: 20px;
+}
+.messageside{
+  
+  font-size: 30px;
+   font-weight: none;
+}

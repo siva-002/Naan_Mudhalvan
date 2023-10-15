@@ -1,0 +1,44 @@
+body{
+    
+   width: 60vw;
+   margin: 0 20vw;
+}
+.container{
+    background-color: rgba(230,100,80,0.2);
+    padding: 10px 50px;
+}
+h4{
+    color: brown;
+    width: max-content;
+    padding-bottom: 10px;
+    border-bottom: 2px solid;
+    
+
+}
+.head h1,.head h3{
+    color: ;
+    filter: drop-shadow(2px 0px 2px);
+    text-align:center
+}
+.content{
+  
+    /* margin: 0 100px; */
+   
+    
+}
+.about p{
+    
+}
+.education table{
+    margin-left: 30px;
+}
+.education table,.education table th,.education table td{
+    border: 2px solid ;
+    border-collapse: collapse;
+    padding:10px;
+}
+.skill-con{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
