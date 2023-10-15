@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className='about'>
       <div>  <h2>About Me</h2>
-        <span>Nothing to say here....</span>
+        <span>Hey I'm Sivakumar V here i have developed an simple message application  for naanmudhalvan ....</span>
         </div>
     </div>
   )
